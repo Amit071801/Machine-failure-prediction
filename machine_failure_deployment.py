@@ -21,7 +21,7 @@ footfall = st.number_input('footfall')
 tempMode = st.number_input('tempMode')
 AQ = st.number_input('AQ')
 USS = st.number_input('USS')
-Cs = st.number_input('Cs')
+CS = st.number_input('CS')
 VOC = st.number_input('VOC')
 RP = st.number_input('RP')
 IP = st.number_input('IP')
@@ -32,7 +32,7 @@ df = pd.DataFrame({
     "temMode": [tempMode],
     "AQ": [AQ],
     "USS": [USS],
-    "Cs": [Cs],
+    "CS": [CS],
     "VOC" : [VOC],
     "RP" : [RP],
     "IP" : [IP],
